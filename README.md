@@ -107,13 +107,21 @@ consumer-goods-sql-analysis
 
 # 💡 Key Business Insights
 
--   Measured product portfolio growth between fiscal years.
--   Identified high-performing customer segments.
--   Compared manufacturing costs across products.
--   Evaluated monthly and quarterly sales performance.
--   Measured channel contribution to gross sales.
--   Ranked products within each division.
+- 📈 The number of unique products increased from **245 in FY2020** to **334 in FY2021**, representing a **36.33% growth**, indicating significant product portfolio expansion.
 
+- 🌏 **Atliq Exclusive** operates across **8 APAC markets**, highlighting the company's strong regional presence.
+
+- 🏭 The **Notebook** segment recorded the highest increase in unique products between FY2020 and FY2021, reflecting increased investment in this product category.
+
+- 💰 Manufacturing costs ranged from **₹0.89** to **₹240.54**, revealing a wide variation in production expenses across products.
+
+- 🎯 The **Retailer** channel contributed approximately **73%** of total gross sales in FY2021, making it the company's most important revenue channel.
+
+- 📅 Gross sales peaked during **November and December**, suggesting strong seasonal demand driven by festive and year-end sales.
+
+- 🇮🇳 Customers in the **Indian market** received the highest average pre-invoice discount percentages, demonstrating the company's focus on market expansion and customer acquisition.
+
+- 🏆 Several products consistently ranked among the **Top 3 best-selling products** within their divisions, providing clear candidates for future marketing and inventory prioritization.
 ------------------------------------------------------------------------
 
 # 📝 Recommendations
