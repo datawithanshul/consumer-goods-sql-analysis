@@ -69,18 +69,20 @@ Fiscal Year: **September -- August**
 
 # 📋 Business Questions Solved
 
-  No.   Business Requirement                             SQL Concepts
-  ----- ------------------------------------------------ -----------------
-  1     Markets where Atliq Exclusive operates in APAC   DISTINCT, WHERE
-  2     Unique product growth (2021 vs 2020)             CTE, COUNT
-  3     Unique product count by segment                  GROUP BY
-  4     Segment-wise increase in products                JOIN, CTE
-  5     Highest & lowest manufacturing cost              MIN/MAX
-  6     Top 5 customers by discount                      AVG, ORDER BY
-  7     Monthly gross sales of Atliq Exclusive           JOIN, SUM
-  8     Quarter with highest sales                       CASE
-  9     Channel contribution                             Window Function
-  10    Top 3 products in each division                  DENSE_RANK
+The following table summarizes the business requests addressed in this project and the primary SQL concepts used to solve each one.
+
+| No. | Business Requirement | Primary SQL Concepts Used |
+|:---:|----------------------|---------------------------|
+| 1 | Identify the markets where **Atliq Exclusive** operates in the **APAC** region. | `WHERE`, `DISTINCT` |
+| 2 | Calculate the percentage increase in unique products sold in **FY2021** compared to **FY2020**. | `CTE`, `COUNT()`, `ROUND()` |
+| 3 | Generate a report showing the unique product count for each product segment. | `GROUP BY`, `COUNT()` |
+| 4 | Determine which product segment experienced the highest increase in unique products between FY2020 and FY2021. | `JOIN`, `CTE`, `GROUP BY` |
+| 5 | Identify the products with the **highest** and **lowest** manufacturing costs. | `JOIN`, `MIN()`, `MAX()` |
+| 6 | Retrieve the **Top 5 customers** receiving the highest average pre-invoice discount percentage in the Indian market for FY2021. | `JOIN`, `AVG()`, `ORDER BY`, `LIMIT` |
+| 7 | Calculate the monthly **Gross Sales Amount** for **Atliq Exclusive** to analyze monthly sales performance. | `JOIN`, `SUM()`, `GROUP BY`, `MONTHNAME()` |
+| 8 | Find the quarter in **FY2020** with the highest total sold quantity. | `CASE`, `SUM()`, `GROUP BY` |
+| 9 | Determine which sales channel contributed the highest gross sales in FY2021 and calculate its percentage contribution. | `Window Functions`, `SUM()`, `CTE` |
+| 10 | Retrieve the **Top 3 products** in each division based on total sold quantity for FY2021. | `DENSE_RANK()`, `CTE`, `Window Functions` |
 
 ------------------------------------------------------------------------
 
